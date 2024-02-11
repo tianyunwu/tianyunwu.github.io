@@ -1,30 +1,30 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog",
-    "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
-  },
-  {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
-    "section": "",
-    "text": "This is a post with executable code."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "9to5stats",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nFeb 10, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 7, 2024\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to the Year of Loong\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n\n\n\n\n\n\n\n\n\n\n\nReading Notes - 2024/02/11\n\n\n\n\n\n\nnotes\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/welcome-to-the-year-of-loong/index.html",
+    "href": "posts/welcome-to-the-year-of-loong/index.html",
+    "title": "Welcome to the Year of Loong",
+    "section": "",
+    "text": "No, we no longer call this mythical creature dragon. It’s loong now.\n\n\n\nPhoto by Christopher Ritter on Unsplash"
+  },
+  {
+    "objectID": "posts/reading-notes-2024:02:11/index.html",
+    "href": "posts/reading-notes-2024:02:11/index.html",
+    "title": "Reading Notes - 2024/02/11",
+    "section": "",
+    "text": "XP is my attempt to reconcile humanity and productivity in my own practice of software development and to share that reconciliation. I had begun to notice that the more humanely I treated myself and others, the more productive we all became. The key to success lies not in self-mortification but in acceptance that we are people in a person-to-person business.\n\n– Kent Beck, Extreme Programming Explained: Embrace Change (second Edition)"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Tianyun Wu",
+    "section": "",
+    "text": "Welcome! This is a place for me to record tibits in my professional and personal life.\nA bit about myself. I am a data scientist with academic training in applied statisitcs, physics and biochemistry. I work as a data engineer consultant to modernize the CRM (customer relationship management) system of a luxury apparel brand.\nYou’ll see an interesting mixture of topics in this little blog.\n#machinelearning\n#Python\n#bigdata\n#permaculture"
   }
 ]
