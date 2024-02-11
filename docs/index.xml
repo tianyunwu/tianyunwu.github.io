@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss  xmlns:atom="http://www.w3.org/2005/Atom" 
+      xmlns:media="http://search.yahoo.com/mrss/" 
+      xmlns:content="http://purl.org/rss/1.0/modules/content/" 
+      xmlns:dc="http://purl.org/dc/elements/1.1/" 
+      version="2.0">
+<channel>
+<title>9to5stats</title>
+<link>https://tianyunwu.github.io/</link>
+<atom:link href="https://tianyunwu.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<description>Personal blog of Tianyun Wu</description>
+<generator>quarto-1.4.549</generator>
+<lastBuildDate>Sat, 10 Feb 2024 16:00:00 GMT</lastBuildDate>
+<item>
+  <title>Welcome to the Year of Loong</title>
+  <dc:creator>Tianyun Wu</dc:creator>
+  <link>https://tianyunwu.github.io/posts/welcome-to-the-year-of-loong/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<p>No, we no longer call this mythical creature <strong>dragon</strong>. It’s <strong>loong</strong> now.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://tianyunwu.github.io/posts/welcome-to-the-year-of-loong/thumbnail.jpg" class="img-fluid figure-img" style="width:100.0%"></p>
+<figcaption>Photo by <a href="https://unsplash.com/@rittercu?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Christopher Ritter</a> on <a href="https://unsplash.com/photos/a-colorful-dragon-with-wings-aV7tivl3L1Y?utm_content=creditCopyText&amp;utm_medium=referral&amp;utm_source=unsplash">Unsplash</a></figcaption>
+</figure>
+</div>
+
+
+
+ ]]></description>
+  <category>news</category>
+  <guid>https://tianyunwu.github.io/posts/welcome-to-the-year-of-loong/</guid>
+  <pubDate>Sat, 10 Feb 2024 16:00:00 GMT</pubDate>
+</item>
+<item>
+  <title>Reading Notes - 2024/02/11</title>
+  <dc:creator>Tianyun Wu</dc:creator>
+  <link>https://tianyunwu.github.io/posts/reading-notes-2024:02:11/</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<blockquote class="blockquote">
+<p>XP is my attempt to reconcile humanity and productivity in my own practice of software development and to share that reconciliation. I had begun to notice that the more humanely I treated myself and others, the more productive we all became. The key to success lies not in self-mortification but in acceptance that we are people in a person-to-person business.</p>
+</blockquote>
+<p>– Kent Beck, <em>Extreme Programming Explained: Embrace Change (second Edition)</em></p>
+
+
+
+ ]]></description>
+  <category>notes</category>
+  <guid>https://tianyunwu.github.io/posts/reading-notes-2024:02:11/</guid>
+  <pubDate>Sat, 10 Feb 2024 16:00:00 GMT</pubDate>
+  <media:content url="https://tianyunwu.github.io/posts/reading-notes-2024:02:11/image.jpeg" medium="image" type="image/jpeg"/>
+</item>
+</channel>
+</rss>
