@@ -1,10 +1,24 @@
 [
   {
+    "objectID": "all-posts.html",
+    "href": "all-posts.html",
+    "title": "All Posts",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Title\n      \n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n      \n        Author\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\nWelcome to the Year of Loong\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nReading Notes - 2024/02/11\n\n\n\nnotes\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n1 min\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "all-microblogs.html",
+    "href": "all-microblogs.html",
+    "title": "All Microblogs",
+    "section": "",
+    "text": "Order By\n      Default\n      \n        Date - Oldest\n      \n      \n        Date - Newest\n      \n    \n  \n    \n      \n      \n    \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2025\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "9to5stats",
+    "title": "Posts",
     "section": "",
-    "text": "Welcome to the Year of Loong\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n\n\n\n\n\n\n\n\n\n\n\nReading Notes - 2024/02/11\n\n\n\nnotes\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n\n\n\n\nNo matching items"
+    "text": "Posts\n\n\n\n\n\n\n\n\n\n\nWelcome to the Year of Loong\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n1 min\n\n\n\n\n\n\n\n\n\n\n\nReading Notes - 2024/02/11\n\n\n\nnotes\n\n\n\n\n\n\n\n\n\nFeb 11, 2024\n\n\nTianyun Wu\n\n1 min\n\n\n\n\nNo matching items\n\n\nSee all posts &gt;&gt;\n\n\n\n\n\n\nMicroblogs\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2025\n\n\n\n\n\nNo matching items\n\n\nSee all microblogs &gt;&gt;"
   },
   {
     "objectID": "posts/welcome-to-the-year-of-loong/index.html",
@@ -14,8 +28,15 @@
     "text": "No, we no longer call this mythical creature dragon. It’s loong now.\n\n\n\nPhoto by Christopher Ritter on Unsplash"
   },
   {
-    "objectID": "posts/reading-notes-2024:02:11/index.html",
-    "href": "posts/reading-notes-2024:02:11/index.html",
+    "objectID": "posts/2025-06-15-lovable-coding/index.html",
+    "href": "posts/2025-06-15-lovable-coding/index.html",
+    "title": "Had a blast coding with Lovable!",
+    "section": "",
+    "text": "Took advantage of Lovable’s weekend promotion and tried out the tool for the first time — it was a blast!"
+  },
+  {
+    "objectID": "posts/2024-02-11-reading-notes/index.html",
+    "href": "posts/2024-02-11-reading-notes/index.html",
     "title": "Reading Notes - 2024/02/11",
     "section": "",
     "text": "XP is my attempt to reconcile humanity and productivity in my own practice of software development and to share that reconciliation. I had begun to notice that the more humanely I treated myself and others, the more productive we all became. The key to success lies not in self-mortification but in acceptance that we are people in a person-to-person business.\n\n– Kent Beck, Extreme Programming Explained: Embrace Change (second Edition)"

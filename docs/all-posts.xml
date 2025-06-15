@@ -6,31 +6,11 @@
       version="2.0">
 <channel>
 <title>9to5stats</title>
-<link>https://tianyunwu.github.io/</link>
-<atom:link href="https://tianyunwu.github.io/index.xml" rel="self" type="application/rss+xml"/>
+<link>https://tianyunwu.github.io/all-posts.html</link>
+<atom:link href="https://tianyunwu.github.io/all-posts.xml" rel="self" type="application/rss+xml"/>
 <description>Numbers, Notes, and Narratives</description>
 <generator>quarto-1.7.31</generator>
-<lastBuildDate>Sat, 14 Jun 2025 16:00:00 GMT</lastBuildDate>
-<item>
-  <title>Had a blast coding with Lovable!</title>
-  <link>https://tianyunwu.github.io/posts/2025-06-15-lovable-coding/</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<p><img src="https://tianyunwu.github.io/posts/2025-06-15-lovable-coding/thumbnail.jpeg" class="img-fluid"></p>
-<p>Took advantage of Lovable’s weekend promotion and tried out the tool for the first time — it was a blast!</p>
-
-
-
- ]]></description>
-  <category>microblog</category>
-  <guid>https://tianyunwu.github.io/posts/2025-06-15-lovable-coding/</guid>
-  <pubDate>Sat, 14 Jun 2025 16:00:00 GMT</pubDate>
-  <media:content url="https://tianyunwu.github.io/posts/2025-06-15-lovable-coding/thumbnail.jpeg" medium="image" type="image/jpeg"/>
-</item>
+<lastBuildDate>Sat, 10 Feb 2024 16:00:00 GMT</lastBuildDate>
 <item>
   <title>Welcome to the Year of Loong</title>
   <dc:creator>Tianyun Wu</dc:creator>

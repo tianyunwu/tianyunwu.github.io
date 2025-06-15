@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tianyunwu.github.io/all-posts.html</loc>
+    <lastmod>2025-06-15T14:22:19.253Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tianyunwu.github.io/all-microblogs.html</loc>
+    <lastmod>2025-06-15T14:22:20.495Z</lastmod>
+  </url>
+  <url>
     <loc>https://tianyunwu.github.io/index.html</loc>
-    <lastmod>2024-02-11T05:38:13.378Z</lastmod>
+    <lastmod>2025-06-15T14:40:29.329Z</lastmod>
   </url>
   <url>
     <loc>https://tianyunwu.github.io/posts/welcome-to-the-year-of-loong/index.html</loc>
     <lastmod>2024-02-11T13:19:40.974Z</lastmod>
   </url>
   <url>
-    <loc>https://tianyunwu.github.io/posts/reading-notes-2024:02:11/index.html</loc>
-    <lastmod>2024-02-11T14:13:15.198Z</lastmod>
+    <loc>https://tianyunwu.github.io/posts/2025-06-15-lovable-coding/index.html</loc>
+    <lastmod>2025-06-15T13:57:09.979Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tianyunwu.github.io/posts/2024-02-11-reading-notes/index.html</loc>
+    <lastmod>2025-06-15T14:31:24.300Z</lastmod>
   </url>
   <url>
     <loc>https://tianyunwu.github.io/about.html</loc>

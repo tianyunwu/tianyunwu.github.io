@@ -72,20 +72,48 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    const listingTargetEl = window.document.querySelector('#listing-regular-posts .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-image','listing-date','listing-title','listing-author','listing-categories','listing-description','listing-reading-time',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+    window['quarto-listings']['listing-regular-posts'] = new List('listing-regular-posts', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-microblogs .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-image','listing-date','listing-author','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-microblogs'] = new List('listing-microblogs', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -131,10 +159,10 @@ window.Quarto = {
 
 <link rel="stylesheet" href="styles.css">
 <link rel="alternate" type="application/rss+xml" title="9to5stats" href="index.xml" data-external="1"><meta property="og:title" content="9to5stats">
-<meta property="og:image" content="https://tianyunwu.github.io/posts/reading-notes-2024:02:11/thumbnail.jpeg">
+<meta property="og:image" content="https://tianyunwu.github.io/posts/2024-02-11-reading-notes/thumbnail.jpeg">
 <meta property="og:site_name" content="9to5stats">
 <meta name="twitter:title" content="9to5stats">
-<meta name="twitter:image" content="https://tianyunwu.github.io/posts/reading-notes-2024:02:11/thumbnail.jpeg">
+<meta name="twitter:image" content="https://tianyunwu.github.io/posts/2024-02-11-reading-notes/thumbnail.jpeg">
 <meta name="twitter:card" content="summary_large_image">
 </head>
 
@@ -155,6 +183,18 @@ window.Quarto = {
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link active" href="./index.html" aria-current="page"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./all-posts.html"> 
+<span class="menu-text">Posts</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./all-microblogs.html"> 
+<span class="menu-text">Microblogs</span></a>
+  </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
 <span class="menu-text">About</span></a>
@@ -182,40 +222,20 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page-left">
-      <h1 class="title">9to5stats</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page-left">
-
-      
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm90ZXM=">notes <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bWljcm9ibG9n">microblog <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bmV3cw==">news <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bm90ZXM=">notes <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
 
 
-
-
-
-
-
-<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<section id="posts" class="level1">
+<h1>Posts</h1>
+<div id="listing-regular-posts" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
 <div class="quarto-post image-right" data-index="0" data-categories="bmV3cw==" data-listing-date-sort="1707580800000" data-listing-file-modified-sort="1707657580974" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="19">
 <div class="thumbnail"><a href="./posts/welcome-to-the-year-of-loong/index.html" class="no-external">
@@ -224,7 +244,7 @@ window.Quarto = {
 
 </a></div>
 <div class="body">
-<h3 class="no-anchor listing-title">
+<h3 class="no-anchor listing-title" data-anchor-id="posts">
 <a href="./posts/welcome-to-the-year-of-loong/index.html" class="no-external">Welcome to the Year of Loong</a>
 </h3>
 <div class="listing-categories">
@@ -244,42 +264,86 @@ Feb 11, 2024
 <div class="listing-author">
 Tianyun Wu
 </div>
+<div class="listing-reading-time">1 min</div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="bm90ZXM=" data-listing-date-sort="1707580800000" data-listing-file-modified-sort="1707660795198" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
-<div class="thumbnail"><a href="./posts/reading-notes-2024:02:11/index.html" class="no-external">
+<div class="quarto-post image-right" data-index="1" data-categories="bm90ZXM=" data-listing-date-sort="1707580800000" data-listing-file-modified-sort="1749997884300" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="70">
+<div class="thumbnail"><a href="./posts/2024-02-11-reading-notes/index.html" class="no-external">
 
-<img loading="lazy" src="./posts/reading-notes-2024:02:11/thumbnail.jpeg" class="thumbnail-image">
+<img loading="lazy" src="./posts/2024-02-11-reading-notes/thumbnail.jpeg" class="thumbnail-image">
 
 </a></div>
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./posts/reading-notes-2024:02:11/index.html" class="no-external">Reading Notes - 2024/02/11</a>
+<a href="./posts/2024-02-11-reading-notes/index.html" class="no-external">Reading Notes - 2024/02/11</a>
 </h3>
 <div class="listing-categories">
 
 <div class="listing-category" onclick="window.quartoListingCategory('bm90ZXM='); return false;">notes</div>
 
 </div>
-<div class="delink listing-description"><a href="./posts/reading-notes-2024:02:11/index.html" class="no-external">
+<div class="delink listing-description"><a href="./posts/2024-02-11-reading-notes/index.html" class="no-external">
 XP is my attempt to reconcile humanity and productivity in my own practice of software development and to share that reconciliation. I had begun to notice that the more…
 </a></div>
 </div>
 <div class="metadata">
-<a href="./posts/reading-notes-2024:02:11/index.html" class="no-external">
+<a href="./posts/2024-02-11-reading-notes/index.html" class="no-external">
 <div class="listing-date">
 Feb 11, 2024
 </div>
 <div class="listing-author">
 Tianyun Wu
 </div>
+<div class="listing-reading-time">1 min</div>
 </a>
 </div>
 </div>
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
-</div></main> <!-- /main -->
+</div>
+<div style="text-align:center;">
+<p><a href="../all-posts.qmd">See all posts &gt;&gt;</a></p>
+</div>
+<div style="height: 4em;">
+
+</div>
+</section>
+<section id="microblogs" class="level1">
+<h1>Microblogs</h1>
+<div id="listing-microblogs" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="bWljcm9ibG9n" data-listing-date-sort="1749916800000" data-listing-file-modified-sort="1749995829979" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="20">
+<div class="thumbnail"><a href="./posts/2025-06-15-lovable-coding/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/2025-06-15-lovable-coding/thumbnail.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<div class="delink listing-description"><a href="./posts/2025-06-15-lovable-coding/index.html" class="no-external">
+Took advantage of Lovable’s weekend promotion and tried out the tool for the first time — it was a blast!
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/2025-06-15-lovable-coding/index.html" class="no-external">
+<div class="listing-date">
+Jun 15, 2025
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<div style="text-align:center;">
+<p><a href="../all-microblogs.qmd">See all microblogs &gt;&gt;</a></p>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
