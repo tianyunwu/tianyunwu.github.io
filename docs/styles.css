@@ -1,1 +1,24 @@
 /* css styles */
+
+/* Better typography and spacing */
+body {
+  line-height: 1.6;
+}
+
+.post-preview {
+  margin-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #eee;
+}
+
+blockquote {
+  border-left: 4px solid #007bff;
+  padding-left: 1rem;
+  font-style: italic;
+  margin-left: 0;
+}
+
+/* Dark mode blockquote */
+[data-bs-theme="dark"] blockquote {
+  border-left-color: #6ea8fe;
+}
