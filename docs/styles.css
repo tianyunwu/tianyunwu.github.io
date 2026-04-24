@@ -22,3 +22,61 @@ blockquote {
 [data-bs-theme="dark"] blockquote {
   border-left-color: #6ea8fe;
 }
+
+/* Constrain navbar width for a harmonious layout */
+.navbar > .navbar-container,
+.navbar > .container-fluid {
+  max-width: 1200px !important;
+  margin: 0 auto !important;
+}
+
+/* --- Micro-Aesthetics --- */
+
+/* 1. Smooth hover transitions for links and listing items */
+a, .card, .quarto-listing-item {
+  transition: all 0.2s ease-in-out;
+}
+
+/* 2. Soft rounded borders and faint shadows for content images */
+main img, .about-image img {
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+[data-bs-theme="dark"] main img, [data-bs-theme="dark"] .about-image img {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Fix harsh contrast at the top: unify navbar with the dark background */
+body.quarto-dark .navbar,
+html[data-bs-theme="dark"] .navbar {
+  background-color: #060606 !important; /* Matches Cyborg's pure black body */
+  border-bottom: 1px solid #1a1a1a !important; /* Very subtle dividing line */
+}
+
+/* Make metadata font feel less delicate and small */
+.quarto-listing-metadata, .metadata {
+  font-family: inherit !important;
+  font-weight: 400 !important; /* Normal weight instead of thin */
+  font-size: 1rem !important; /* Bumped up to match standard text size */
+  color: var(--bs-body-color) !important; /* Ensure high contrast */
+  margin-top: 0.15rem; /* Micro-adjustment to perfectly align with the title baseline */
+}
+
+/* Ensure the search icon matches the size of the theme toggle and social icons */
+.navbar .bi-search {
+  font-size: 1.1rem !important;
+}
+
+/* --- Inline Category Badges --- */
+
+/* Add breathing room between category pills and post titles */
+.listing-categories {
+  margin-top: 0.8rem !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Hide the redundant 'microblog' category badge (using its Base64 identifier from Quarto) */
+.listing-category[onclick*="bWljcm9ibG9n"] {
+  display: none !important;
+}

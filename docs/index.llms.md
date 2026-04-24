@@ -22,7 +22,7 @@ Tianyun Wu
 
 1 min
 
-[See all posts \>\>](../all-posts.qmd)
+[View all posts →](all-posts.llms.md)
 
 # Microblogs
 
@@ -34,4 +34,4 @@ Jun 15, 2025
 
 Tianyun Wu
 
-[See all microblogs \>\>](../all-microblogs.qmd)
+[View all microblogs →](all-microblogs.llms.md)
