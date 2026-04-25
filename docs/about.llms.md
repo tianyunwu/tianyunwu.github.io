@@ -4,10 +4,4 @@ A bit about myself. I am a data scientist with academic training in applied stat
 
 You’ll see an interesting mixture of topics in this little blog.
 
-\#machinelearning
-
-\#Python
-
-\#bigdata
-
-\#permaculture
+`#machinelearning` `#Python` `#bigdata` `#permaculture`
